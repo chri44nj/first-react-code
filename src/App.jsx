@@ -7,18 +7,30 @@ import Breakline from "./components/Breakline";
 
 export default function App() {
   return (
-    <section>
+    <section className="flex flex-col gap-8 px-[5dvh] py-8">
       <Header>
         <SignupForm></SignupForm>
       </Header>
 
       <MemberList>
         <Breakline></Breakline>
-        <MemberCard img="../public/img/profile.png" name="Lindsay Walton" title="Front-end Developer"></MemberCard>
+        <MemberCard
+          img="../public/img/profile.png"
+          name="Lindsay Walton"
+          title="Front-end Developer"
+        ></MemberCard>
         <Breakline></Breakline>
-        <MemberCard img="../public/img/profile.png" name="Courtney Henry" title="Designer"></MemberCard>
+        <MemberCard
+          img="../public/img/profile.png"
+          name="Courtney Henry"
+          title="Designer"
+        ></MemberCard>
         <Breakline></Breakline>
-        <MemberCard img="../public/img/profile.png" name="Tom Cook" title="Director of Product"></MemberCard>
+        <MemberCard
+          img="../public/img/profile.png"
+          name="Tom Cook"
+          title="Director of Product"
+        ></MemberCard>
       </MemberList>
     </section>
   );
