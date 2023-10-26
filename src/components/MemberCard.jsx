@@ -7,7 +7,7 @@ export default function MemberCard(props) {
       <div className="flex items-center gap-4">
         <Avatar img={props.img}></Avatar>
         <div className="name-title">
-          <h4 className="text-2xl font-bold">{props.name}</h4>
+          <h4 className="font-lato text-2xl font-bold">{props.name}</h4>
           <p>{props.title}</p>
         </div>
       </div>
